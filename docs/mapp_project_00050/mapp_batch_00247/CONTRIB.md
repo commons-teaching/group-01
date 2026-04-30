@@ -172,7 +172,7 @@ options:
   output_plots: True
   
 paths:
-  gnps_job_id: d7da69e541184aaa9d7d189c6df531fe # The GNPS job id you want to treat
+  gnps_job_id: 88a3938e7def4ab9bd95fa0be2b81628 # The GNPS job id you want to treat
   input_folder: /Users/voletco/git_repos/commons-teaching/group-01/docs/mapp_project_00050/mapp_batch_00247/results/met_annot_enhancer # The path were you want your GNPS job folder to be placed
   project_name: mapp_batch_00247 #ISDB_annot_LP_plantfungi_set # The name you want to give to your project, output resulst in data_out/project_name
   output_folder: /Users/voletco/git_repos/commons-teaching/group-01/docs/mapp_project_00050/mapp_batch_00247/results/met_annot_enhancer # the path for your output to be stored in
@@ -236,7 +236,7 @@ This command should remove symlinks from the downloaded GNPS job folder (make su
 
 ```bash
 cd ./docs/mapp_project_00050/mapp_batch_00247
-find ./results/met_annot_enhancer/d7da69e541184aaa9d7d189c6df531fe -type l -exec rm {} +
+find ./results/met_annot_enhancer/88a3938e7def4ab9bd95fa0be2b81628 -type l -exec rm {} +
 ```
 
 
@@ -260,7 +260,7 @@ operating_system:
 mapp_project : mapp_project_00050
 mapp_batch : mapp_batch_00247
 met_annot_enhancer_folder : mapp_batch_00247
-gnps_job_id : d7da69e541184aaa9d7d189c6df531fe
+gnps_job_id : 88a3938e7def4ab9bd95fa0be2b81628
 
 dataset_experiment : 
   name: "mapp_batch_00247 LCMS metabolomics dataset"
@@ -485,11 +485,11 @@ cd ./docs/mapp_project_00050/mapp_batch_00247/
 #### Align horizontally
 
 ```bash
-met-annot-unifier-cli align-horizontally --canopus-file ./results/sirius/canopus_structure_summary.tsv --gnps-file ./results/met_annot_enhancer/d7da69e541184aaa9d7d189c6df531fe/nf_output/library/merged_results_with_gnps.tsv --gnps-mn-file ./results/met_annot_enhancer/d7da69e541184aaa9d7d189c6df531fe/nf_output/networking/clustersummary_with_network.tsv --sirius-file ./results/sirius/structure_identifications.tsv --isdb-file ./results/met_annot_enhancer/mapp_batch_00247/mapp_batch_00247_spectral_match_results_repond_flat.tsv --output ./results/tmp/mapp_batch_00247_met_annot_unified_horizontal.tsv
+met-annot-unifier-cli align-horizontally --canopus-file ./results/sirius/canopus_structure_summary.tsv --gnps-file ./results/met_annot_enhancer/88a3938e7def4ab9bd95fa0be2b81628/nf_output/library/merged_results_with_gnps.tsv --gnps-mn-file ./results/met_annot_enhancer/88a3938e7def4ab9bd95fa0be2b81628/nf_output/networking/clustersummary_with_network.tsv --sirius-file ./results/sirius/structure_identifications.tsv --isdb-file ./results/met_annot_enhancer/mapp_batch_00247/mapp_batch_00247_spectral_match_results_repond_flat.tsv --output ./results/tmp/mapp_batch_00247_met_annot_unified_horizontal.tsv
 ```
 
 #### Align vertically
 
 ```bash
-met-annot-unifier-cli align-vertically  --gnps-file ./results/met_annot_enhancer/d7da69e541184aaa9d7d189c6df531fe/nf_output/library/merged_results_with_gnps.tsv --isdb-file ./results/met_annot_enhancer/mapp_batch_00247/mapp_batch_00247_spectral_match_results_repond_flat.tsv --sirius-file ./results/sirius/structure_identifications.tsv  --output ./results/tmp/mapp_batch_00247_met_annot_unified_vertical.tsv
+met-annot-unifier-cli align-vertically  --gnps-file ./results/met_annot_enhancer/88a3938e7def4ab9bd95fa0be2b81628/nf_output/library/merged_results_with_gnps.tsv --isdb-file ./results/met_annot_enhancer/mapp_batch_00247/mapp_batch_00247_spectral_match_results_repond_flat.tsv --sirius-file ./results/sirius/structure_identifications.tsv  --output ./results/tmp/mapp_batch_00247_met_annot_unified_vertical.tsv
 ```
