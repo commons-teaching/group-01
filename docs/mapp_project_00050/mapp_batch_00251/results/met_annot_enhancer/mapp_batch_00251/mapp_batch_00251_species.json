@@ -1,0 +1,64 @@
+{
+  "context": "All life",
+  "governing_code": "undefined",
+  "includes_approximate_matches": true,
+  "includes_deprecated_taxa": false,
+  "includes_suppressed_names": false,
+  "matched_names": [
+    "ensifer meliloti"
+  ],
+  "results": [
+    {
+      "matches": [
+        {
+          "is_approximate_match": false,
+          "is_synonym": true,
+          "matched_name": "Ensifer meliloti",
+          "nomenclature_code": "ICNP",
+          "score": 1.0,
+          "search_string": "ensifer meliloti",
+          "taxon": {
+            "flags": [
+              "sibling_higher"
+            ],
+            "is_suppressed": false,
+            "is_suppressed_from_synth": false,
+            "name": "Sinorhizobium meliloti",
+            "ott_id": 43952,
+            "rank": "species",
+            "source": "ott3.7draft3",
+            "synonyms": [
+              "Ensifer meliloti",
+              "Ensifer sp. AC50a",
+              "Ensifer sp. AC50e",
+              "Rhizobium meliloti",
+              "Rhizobium meliloti (megaplasmid pRME41B SYM)",
+              "Rhizobium meliloti (plasmid pRmeGR4b)",
+              "Rhizobium meliloti plasmid pRmeGR4b",
+              "Rhizobium sp. AC50e"
+            ],
+            "tax_sources": [
+              "silva:D14509",
+              "ncbi:382",
+              "gbif:3220704",
+              "irmng:11424830",
+              "irmng:10747698",
+              "irmng:10033081"
+            ],
+            "unique_name": "Sinorhizobium meliloti"
+          }
+        }
+      ],
+      "name": "ensifer meliloti"
+    }
+  ],
+  "taxonomy": {
+    "author": "open tree of life project",
+    "name": "ott",
+    "source": "ott3.7draft3",
+    "version": "3.7",
+    "weburl": "https://tree.opentreeoflife.org/about/taxonomy-version/ott3.7"
+  },
+  "unambiguous_names": [],
+  "unmatched_names": []
+}
