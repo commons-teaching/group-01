@@ -1,5 +1,4 @@
 filename	sample_id	sample_type	ATTRIBUTE_group	ATTRIBUTE_replicate	ATTRIBUTE_mutant	source_taxon
-20260428_CVOL_bk_mapp_pre_01.mzML	bk_mapp_01	blank	NA	NA	NA	NA
 20260428_CVOL_Group_01_11A.mzML	11A	sample	11	A	xthA1	Ensifer meliloti
 20260428_CVOL_Group_01_11B.mzML	11B	sample	11	B	xthA1	Ensifer meliloti
 20260428_CVOL_Group_01_11C.mzML	11C	sample	11	C	xthA1	Ensifer meliloti

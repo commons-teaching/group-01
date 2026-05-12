@@ -1,0 +1,7 @@
+A "DatasetExperiment" object
+----------------------------
+name:          mapp_batch_00251 LCMS metabolomics dataset
+description:   Untargeted metabolomics, tp26 SBL. 200004, group-01 - HILIC
+data:          23 rows x 1142 columns
+sample_meta:   23 rows x 8 columns
+variable_meta: 1142 rows x 177 columns

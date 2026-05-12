@@ -1,0 +1,8 @@
+A "DatasetExperiment" object
+----------------------------
+name:          mapp_batch_00247 LCMS metabolomics dataset
+The data has been pareto scaled
+description:   Untargeted metabolomics, tp26 SBL. 200004, group-01 - C18
+data:          16 rows x 454 columns
+sample_meta:   16 rows x 8 columns
+variable_meta: 454 rows x 177 columns
